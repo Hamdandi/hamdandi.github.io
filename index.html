@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Night</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========================================================================================================= -->
+    <!-- NAVBAR -->
+    <!-- ========================================================================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="image/icon-nav.png" alt="" width="60" height="auto" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galerry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">still empty</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark bg-dark"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">instagram</a></li>
+                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">YouTube</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- ========================================================================================================= -->
+    <!-- MAIN -->
+    <!-- ========================================================================================================= -->
+    <section class="bg-dark d-sm-flex ">
+      <div class="container-fluid bg-dark text-light">
+        <div class="col-lg-6 ">
+          <img src="image/main1.jfif" class="p-3 img-fluid" />
+          <h2>
+            The Moon is Earth's only natural satellite. At about one-quarter the
+            diameter of Earth, it is the largest natural satellite in the Solar
+            System relative to the size of a major planet, the fifth largest
+            satellite in the Solar System overall, and larger than any known
+            dwarf planet.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light" id="galeri">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="image/s1.jfif"
+              class="img-fluid rounded mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/s2.jfif"
+              class="img-fluid rounded mx-auto d-block"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/s3.jfif"
+              class="img-fluid rounded mx-auto d-block"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- <section
+      class="
+        bg-dark
+        text-light text-center
+        p-5 p-lg-0
+        pt-lg-5
+        text-center text-sm-start
+      "
+    >
+      <div class="container">
+        <div class="d-sm-flex justify-content-between align-items-center">
+          <div>
+            <h3>
+              Hi, Kenalin gue <span class="text-danger">Dea Afrizal</span>
+            </h3>
+            <p class="lead my-2">Influencer & Tech Lead Engineer 👋</p>
+          </div>
+          <div class="d-sm-flex justify-content-center align-items-center">
+            <img
+              class="w-50 img-fluid d-none d-sm-block"
+              src="./images/man2.svg"
+            />
+          </div>
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark text-light" id="galeri">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner text-center" role="listbox">
+          <div class="carousel-item active">
+            <img
+              class="img-fluid h-75"
+              src="image/man1.jpg"
+              alt="gambar ke 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="image/s2.jfif" alt="gambar ke 2" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section> -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
